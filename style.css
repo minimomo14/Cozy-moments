@@ -1,6 +1,58 @@
 body,
-html{
-    width: 100%;
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background: url(https://images.unsplash.com/photo-1603950227760-e609ce8e15b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfG5QM3d4Ykc4R3JNfHxlbnwwfHx8fHw%3D)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.hr-style {
+    border:2px solid #ffffff;
+    border-width: 2px;
+    max-width: 7rem;
+    margin: 0 auto;
+    opacity: .5;
+}
+
+.buffer{
+    height: 5rem;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #111111;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-primary:hover{
+    background-color: #111111;
+    border-color: #111111;
+    color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn-style{ 
+    padding: 1rem 2rem;   
 }
